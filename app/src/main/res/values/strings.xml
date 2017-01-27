@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SensorTest</string>
+    <string name="azi">Azimuth</string>
+    <string name="pit">Pitch</string>
+    <string name="rol">Roll</string>
+    <string name="inc">Inclination</string>
+    <string name="cal">Calculation</string>
+    <string name="sum">Sum</string>
+    <string name="dif">Difference</string>
+    <string name="mag_acy">(M)Accuracy</string>
+    <string name="acc_acy">(A)Accuracy</string>
+    <string name="NA">N/A</string>
+</resources>

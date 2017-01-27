@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dixon.sensortest.MainActivity"
+    android:stretchColumns="0,1">
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/azi"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/azi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/pit"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/pit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/rol"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/rol"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/inc"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/inc"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/cal"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/cal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/sum"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/sum"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/dif"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/dif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/mag_acy"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/ma"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/acc_acy"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id = "@+id/aa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:text="@string/NA"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </TableRow>
+</TableLayout>
